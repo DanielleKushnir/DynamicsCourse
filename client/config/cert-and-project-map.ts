@@ -29,19 +29,15 @@ const dataAnalysisPyBase =
 const machineLearningPyBase =
   '/learn/machine-learning-with-python/machine-learning-with-python-projects';
 const collegeAlgebraPyBase = '/learn/college-algebra-with-python';
-const takeHomeBase = '/learn/coding-interview-prep/take-home-projects';
 const foundationalCSharpBase =
   '/learn/foundational-c-sharp-with-microsoft/foundational-c-sharp-with-microsoft-certification-exam';
 const fullStackDeveloperBase = '/learn/full-stack-developer';
 const a2EnglishBase = '/learn/a2-english-for-developers';
 const legacyFrontEndBase = feLibsBase;
 const legacyFrontEndResponsiveBase = responsiveWebBase;
-const legacyFrontEndTakeHomeBase = takeHomeBase;
 const legacyBackEndBase = apiMicroBase;
-const legacyBackEndTakeHomeBase = takeHomeBase;
 const legacyDataVisBase = dataVisBase;
 const legacyDataVisFrontEndBase = feLibsBase;
-const legacyDataVisTakeHomeBase = takeHomeBase;
 const legacyInfosecQaQaBase = qaBase;
 const legacyInfosecQaInfosecBase = infoSecBase;
 
@@ -534,39 +530,9 @@ const allStandardCerts = [
         certSlug: Certification.LegacyFrontEnd
       },
       {
-        id: 'bd7158d8c442eddfaeb5bd10',
-        title: 'Show the Local Weather',
-        link: `${legacyFrontEndTakeHomeBase}/show-the-local-weather`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
-        id: 'bd7158d8c442eddfaeb5bd1f',
-        title: 'Use the TwitchTV JSON API',
-        link: `${legacyFrontEndTakeHomeBase}/use-the-twitch-json-api`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
         id: 'bd7158d8c442eddfaeb5bd18',
         title: 'Build a Tribute Page',
         link: `${legacyFrontEndResponsiveBase}/build-a-tribute-page`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
-        id: 'bd7158d8c442eddfaeb5bd19',
-        title: 'Build a Wikipedia Viewer',
-        link: `${legacyFrontEndTakeHomeBase}/build-a-wikipedia-viewer`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
-        id: 'bd7158d8c442eedfaeb5bd1c',
-        title: 'Build a Tic Tac Toe Game',
-        link: `${legacyFrontEndTakeHomeBase}/build-a-tic-tac-toe-game`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
-        id: 'bd7158d8c442eddfaeb5bd1c',
-        title: 'Build a Simon Game',
-        link: `${legacyFrontEndTakeHomeBase}/build-a-simon-game`,
         certSlug: Certification.LegacyFrontEnd
       }
     ]
@@ -632,45 +598,9 @@ const allStandardCerts = [
         certSlug: Certification.LegacyBackEnd
       },
       {
-        id: 'bd7158d8c443edefaeb5bdee',
-        title: 'Image Search Abstraction Layer',
-        link: `${legacyBackEndTakeHomeBase}/build-an-image-search-abstraction-layer`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
         id: 'bd7158d8c443edefaeb5bd0f',
         title: 'File Metadata Microservice',
         link: `${legacyBackEndBase}/file-metadata-microservice`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bdef',
-        title: 'Build a Voting App',
-        link: `${legacyBackEndTakeHomeBase}/build-a-voting-app`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bdff',
-        title: 'Build a Nightlife Coordination App',
-        link: `${legacyBackEndTakeHomeBase}/build-a-nightlife-coordination-app`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bd0e',
-        title: 'Chart the Stock Market',
-        link: `${legacyBackEndTakeHomeBase}/chart-the-stock-market`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bd0f',
-        title: 'Manage a Book Trading Club',
-        link: `${legacyBackEndTakeHomeBase}/manage-a-book-trading-club`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bdee',
-        title: 'Build a Pinterest Clone',
-        link: `${legacyBackEndTakeHomeBase}/build-a-pinterest-clone`,
         certSlug: Certification.LegacyBackEnd
       }
     ]
@@ -685,30 +615,6 @@ const allStandardCerts = [
         id: 'bd7157d8c242eddfaeb5bd13',
         title: 'Build a Markdown Previewer',
         link: `${legacyDataVisFrontEndBase}/build-a-markdown-previewer`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7156d8c242eddfaeb5bd13',
-        title: 'Build a freeCodeCamp Forum Homepage',
-        link: `${legacyDataVisTakeHomeBase}/build-a-freecodecamp-forum-homepage`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7155d8c242eddfaeb5bd13',
-        title: 'Build a Recipe Box',
-        link: `${legacyDataVisTakeHomeBase}/build-a-recipe-box`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7154d8c242eddfaeb5bd13',
-        title: 'Build the Game of Life',
-        link: `${legacyDataVisTakeHomeBase}/build-the-game-of-life`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7153d8c242eddfaeb5bd13',
-        title: 'Build a Roguelike Dungeon Crawler Game',
-        link: `${legacyDataVisTakeHomeBase}/build-a-roguelike-dungeon-crawler-game`,
         certSlug: Certification.LegacyDataVis
       },
       {
@@ -727,18 +633,6 @@ const allStandardCerts = [
         id: 'bd7188d8c242eddfaeb5bd13',
         title: 'Visualize Data with a Heat Map',
         link: `${legacyDataVisBase}/visualize-data-with-a-heat-map`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7198d8c242eddfaeb5bd13',
-        title: 'Show National Contiguity with a Force Directed Graph',
-        link: `${legacyDataVisTakeHomeBase}/show-national-contiguity-with-a-force-directed-graph`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7108d8c242eddfaeb5bd13',
-        title: 'Map Data Across the Globe',
-        link: `${legacyDataVisTakeHomeBase}/map-data-across-the-globe`,
         certSlug: Certification.LegacyDataVis
       }
     ]

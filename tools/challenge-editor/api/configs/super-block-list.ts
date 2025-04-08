@@ -36,10 +36,6 @@ export const superBlockList = [
     path: '09-information-security'
   },
   {
-    name: 'Coding Interview Prep',
-    path: '10-coding-interview-prep'
-  },
-  {
     name: 'Machine Learning with Python',
     path: '11-machine-learning-with-python'
   },

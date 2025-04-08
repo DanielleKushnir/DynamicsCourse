@@ -17,7 +17,6 @@ export enum SuperBlocks {
   DataAnalysisPy = 'data-analysis-with-python',
   InfoSec = 'information-security',
   MachineLearningPy = 'machine-learning-with-python',
-  CodingInterviewPrep = 'coding-interview-prep',
   TheOdinProject = 'the-odin-project',
   ProjectEuler = 'project-euler',
   CollegeAlgebraPy = 'college-algebra-with-python',
@@ -76,7 +75,6 @@ export const superBlockStages: StageMap = {
   [SuperBlockStage.Professional]: [SuperBlocks.FoundationalCSharp],
   [SuperBlockStage.Extra]: [
     SuperBlocks.TheOdinProject,
-    SuperBlocks.CodingInterviewPrep,
     SuperBlocks.ProjectEuler,
     SuperBlocks.RosettaCode
   ],
@@ -116,7 +114,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.CodingInterviewPrep,
     SuperBlocks.ProjectEuler,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
@@ -125,7 +122,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Chinese]: [
-    SuperBlocks.CodingInterviewPrep,
     SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
@@ -133,7 +129,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.PythonForEverybody
   ],
   [Languages.ChineseTraditional]: [
-    SuperBlocks.CodingInterviewPrep,
     SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
@@ -172,7 +167,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.CodingInterviewPrep,
     SuperBlocks.ProjectEuler,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
@@ -191,7 +185,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.CodingInterviewPrep,
     SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.RespWebDesign,
@@ -213,7 +206,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.CodingInterviewPrep,
     SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FrontEndDevLibs,

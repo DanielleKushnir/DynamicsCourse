@@ -63,7 +63,6 @@ const superBlockHeadings: { [key in SuperBlockStage]: string } = {
   [SuperBlockStage.Core]: 'landing.core-certs-heading',
   [SuperBlockStage.English]: 'landing.learn-english-heading',
   [SuperBlockStage.Professional]: 'landing.professional-certs-heading',
-  [SuperBlockStage.Extra]: 'landing.interview-prep-heading',
   [SuperBlockStage.Legacy]: 'landing.legacy-curriculum-heading',
   [SuperBlockStage.Next]: 'landing.next-heading',
   [SuperBlockStage.Upcoming]: 'landing.upcoming-heading'

@@ -6,7 +6,6 @@ import DatabaseIcon from './icons/database';
 import JavaScriptIcon from './icons/javascript';
 import ReactIcon from './icons/react';
 import TensorflowIcon from './icons/tensorflow';
-import Algorithm from './icons/algorithm';
 import Analytics from './icons/analytics';
 import Clipboard from './icons/clipboard';
 import PythonIcon from './icons/python';
@@ -34,7 +33,6 @@ const iconMap = {
   [SuperBlocks.DataAnalysisPy]: Analytics,
   [SuperBlocks.InfoSec]: Shield,
   [SuperBlocks.MachineLearningPy]: TensorflowIcon,
-  [SuperBlocks.CodingInterviewPrep]: Algorithm,
   [SuperBlocks.TheOdinProject]: VikingHelmet,
   [SuperBlocks.ProjectEuler]: Graduation,
   [SuperBlocks.CollegeAlgebraPy]: CollegeAlgebra,

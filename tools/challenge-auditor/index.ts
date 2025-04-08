@@ -40,7 +40,6 @@ const superBlockFolderMap = {
   'data-analysis-with-python': '08-data-analysis-with-python',
   'information-security': '09-information-security',
   'machine-learning-with-python': '10-machine-learning-with-python',
-  'coding-interview-prep': '11-coding-interview-prep',
   'relational-database': '13-relational-database',
   '2022/responsive-web-design': '14-responsive-web-design-22',
   'javascript-algorithms-and-data-structures-v8':

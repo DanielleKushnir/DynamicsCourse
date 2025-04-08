@@ -268,7 +268,6 @@ export const superBlockToCertMap: {
   [SuperBlocks.FullStackDeveloper]: Certification.FullStackDeveloper,
   [SuperBlocks.A2English]: Certification.A2English,
   [SuperBlocks.PythonForEverybody]: null,
-  [SuperBlocks.CodingInterviewPrep]: null,
   [SuperBlocks.ProjectEuler]: null,
   [SuperBlocks.TheOdinProject]: null,
   [SuperBlocks.RosettaCode]: null
