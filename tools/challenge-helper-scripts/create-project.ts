@@ -17,7 +17,6 @@ const helpCategories = [
   'Python',
   'English',
   'Odin',
-  'Euler',
   'Rosetta'
 ] as const;
 

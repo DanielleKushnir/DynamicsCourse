@@ -76,7 +76,6 @@ const directoryToSuperblock = {
     'javascript-algorithms-and-data-structures-v8',
   '16-the-odin-project': 'the-odin-project',
   '17-college-algebra-with-python': 'college-algebra-with-python',
-  '18-project-euler': 'project-euler',
   '19-foundational-c-sharp-with-microsoft':
     'foundational-c-sharp-with-microsoft',
   '21-a2-english-for-developers': 'a2-english-for-developers',

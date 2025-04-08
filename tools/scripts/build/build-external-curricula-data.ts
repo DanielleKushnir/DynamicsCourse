@@ -52,7 +52,6 @@ export const orderedSuperBlockInfo = [
   { dashedName: SuperBlocks.SciCompPy, public: false },
   { dashedName: SuperBlocks.InfoSec, public: false },
   { dashedName: SuperBlocks.FoundationalCSharp, public: false },
-  { dashedName: SuperBlocks.ProjectEuler, public: false },
   { dashedName: SuperBlocks.RosettaCode, public: false },
   { dashedName: SuperBlocks.JsAlgoDataStruct, public: false }
 ];

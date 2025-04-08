@@ -60,10 +60,6 @@ export const superBlockList = [
     path: '17-college-algebra-with-python'
   },
   {
-    name: 'Project Euler',
-    path: '18-project-euler'
-  },
-  {
     name: '(New) Foundational C# with Microsoft',
     path: '19-foundational-c-sharp-with-microsoft'
   },

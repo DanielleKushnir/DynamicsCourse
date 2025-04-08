@@ -18,7 +18,6 @@ export enum SuperBlocks {
   InfoSec = 'information-security',
   MachineLearningPy = 'machine-learning-with-python',
   TheOdinProject = 'the-odin-project',
-  ProjectEuler = 'project-euler',
   CollegeAlgebraPy = 'college-algebra-with-python',
   FoundationalCSharp = 'foundational-c-sharp-with-microsoft',
   FullStackDeveloper = 'full-stack-developer',
@@ -75,7 +74,6 @@ export const superBlockStages: StageMap = {
   [SuperBlockStage.Professional]: [SuperBlocks.FoundationalCSharp],
   [SuperBlockStage.Extra]: [
     SuperBlocks.TheOdinProject,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.RosettaCode
   ],
   [SuperBlockStage.Legacy]: [
@@ -114,7 +112,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
@@ -122,14 +119,12 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Chinese]: [
-    SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.ChineseTraditional]: [
-    SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
@@ -167,7 +162,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
@@ -185,7 +179,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.RespWebDesign,
     SuperBlocks.FrontEndDevLibs,
@@ -206,7 +199,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FrontEndDevLibs,
     SuperBlocks.JsAlgoDataStructNew,

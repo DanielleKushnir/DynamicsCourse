@@ -46,7 +46,6 @@ const superBlockFolderMap = {
     '15-javascript-algorithms-and-data-structures-22',
   'the-odin-project': '16-the-odin-project',
   'college-algebra-with-python': '17-college-algebra-with-python',
-  'project-euler': '18-project-euler',
   'foundational-c-sharp-with-microsoft':
     '19-foundational-c-sharp-with-microsoft',
   'a2-english-for-developers': '21-a2-english-for-developers',

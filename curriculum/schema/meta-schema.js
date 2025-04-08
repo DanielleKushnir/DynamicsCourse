@@ -71,7 +71,6 @@ const schema = Joi.object()
       'C-Sharp',
       'English',
       'Odin',
-      'Euler',
       'Rosetta'
     ).required()
   })
