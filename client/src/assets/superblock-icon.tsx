@@ -17,7 +17,6 @@ import Graduation from './icons/graduation';
 import CollegeAlgebra from './icons/college-algebra';
 import CSharpLogo from './icons/c-sharp-logo';
 import A2EnglishIcon from './icons/a2-english';
-import B1EnglishIcon from './icons/b1-english';
 import RosettaCodeIcon from './icons/rosetta-code';
 import Code from './icons/code';
 
@@ -42,7 +41,6 @@ const iconMap = {
   [SuperBlocks.FoundationalCSharp]: CSharpLogo,
   [SuperBlocks.FullStackDeveloper]: Code,
   [SuperBlocks.A2English]: A2EnglishIcon,
-  [SuperBlocks.B1English]: B1EnglishIcon,
   [SuperBlocks.RosettaCode]: RosettaCodeIcon,
   [SuperBlocks.PythonForEverybody]: PythonIcon
 };

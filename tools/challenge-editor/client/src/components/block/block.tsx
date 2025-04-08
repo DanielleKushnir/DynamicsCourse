@@ -11,10 +11,7 @@ const stepBasedSuperblocks = [
   '25-front-end-development'
 ];
 
-const taskBasedSuperblocks = [
-  '21-a2-english-for-developers',
-  '24-b1-english-for-developers'
-];
+const taskBasedSuperblocks = ['21-a2-english-for-developers'];
 
 const Block = () => {
   const [error, setError] = useState<Error | null>(null);

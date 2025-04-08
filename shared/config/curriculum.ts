@@ -24,7 +24,6 @@ export enum SuperBlocks {
   FoundationalCSharp = 'foundational-c-sharp-with-microsoft',
   FullStackDeveloper = 'full-stack-developer',
   A2English = 'a2-english-for-developers',
-  B1English = 'b1-english-for-developers',
   RosettaCode = 'rosetta-code',
   PythonForEverybody = 'python-for-everybody'
 }
@@ -73,7 +72,7 @@ export type StageMap = {
 export const superBlockStages: StageMap = {
   [SuperBlockStage.Core]: [SuperBlocks.FullStackDeveloper],
 
-  [SuperBlockStage.English]: [SuperBlocks.A2English, SuperBlocks.B1English],
+  [SuperBlockStage.English]: [SuperBlocks.A2English],
   [SuperBlockStage.Professional]: [SuperBlocks.FoundationalCSharp],
   [SuperBlockStage.Extra]: [
     SuperBlocks.TheOdinProject,
@@ -123,7 +122,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Chinese]: [
@@ -132,7 +130,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.ChineseTraditional]: [
@@ -141,7 +138,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Italian]: [
@@ -150,28 +146,24 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Portuguese]: [
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Ukrainian]: [
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.FullStackDeveloper,
-    SuperBlocks.A2English,
-    SuperBlocks.B1English
+    SuperBlocks.A2English
   ],
   [Languages.Japanese]: [
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
-    SuperBlocks.A2English,
-    SuperBlocks.B1English
+    SuperBlocks.A2English
   ],
   [Languages.German]: [
     SuperBlocks.RelationalDb,
@@ -186,7 +178,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Swahili]: [
@@ -209,7 +200,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.JsAlgoDataStruct,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Korean]: [
@@ -230,7 +220,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody,
     SuperBlocks.DataVis,
     SuperBlocks.RelationalDb,

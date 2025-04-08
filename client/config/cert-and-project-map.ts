@@ -34,7 +34,6 @@ const foundationalCSharpBase =
   '/learn/foundational-c-sharp-with-microsoft/foundational-c-sharp-with-microsoft-certification-exam';
 const fullStackDeveloperBase = '/learn/full-stack-developer';
 const a2EnglishBase = '/learn/a2-english-for-developers';
-const b1EnglishBase = '/learn/b1-english-for-developers';
 const legacyFrontEndBase = feLibsBase;
 const legacyFrontEndResponsiveBase = responsiveWebBase;
 const legacyFrontEndTakeHomeBase = takeHomeBase;
@@ -820,19 +819,6 @@ const allStandardCerts = [
         title: 'A2 English for Developers Certification Exam',
         link: `${a2EnglishBase}/a2-english-for-developers-certification-exam/a2-english-for-developers-certification-exam`,
         certSlug: Certification.A2English
-      }
-    ]
-  },
-  {
-    id: '66607e53317411dd5e8aae21',
-    title: 'B1 English for Developers',
-    certSlug: Certification.B1English,
-    projects: [
-      {
-        id: '66607e5b317411dd5e8aae22',
-        title: "Dialogue 1: I'm Tom",
-        link: `${b1EnglishBase}/learn-how-to-describe-places-and-events/dialogue-1-im-tom`,
-        certSlug: Certification.B1English
       }
     ]
   }

@@ -23,6 +23,5 @@ export const superBlockNameMap: { [key: string]: string } = {
   '21-a2-english-for-developers': 'a2-english-for-developers',
   '22-rosetta-code': 'rosetta-code',
   '23-python-for-everybody': 'python-for-everybody',
-  '24-b1-english-for-developers': 'b1-english-for-developers',
   '25-front-end-development': 'full-stack-developer'
 };

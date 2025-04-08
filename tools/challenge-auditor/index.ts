@@ -53,7 +53,6 @@ const superBlockFolderMap = {
   'a2-english-for-developers': '21-a2-english-for-developers',
   'rosetta-code': '22-rosetta-code',
   'python-for-everybody': '23-python-for-everybody',
-  'b1-english-for-developers': '24-b1-english-for-developers',
   'full-stack-developer': '25-front-end-development'
 };
 

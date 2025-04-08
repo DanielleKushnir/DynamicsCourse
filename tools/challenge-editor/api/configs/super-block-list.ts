@@ -84,10 +84,6 @@ export const superBlockList = [
     path: '23-python-for-everybody'
   },
   {
-    name: 'B1 English for Developers (Beta)',
-    path: '24-b1-english-for-developers'
-  },
-  {
     name: 'Certified Full Stack Developer',
     path: '25-front-end-development'
   }

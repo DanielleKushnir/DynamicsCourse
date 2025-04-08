@@ -90,7 +90,6 @@ const createCertifiedMap = ({
   // certification with projects.
   [Certification.FullStackDeveloper]: false,
   [Certification.A2English]: false,
-  [Certification.B1English]: false,
   [Certification.JsAlgoDataStructNew]: isJsAlgoDataStructCertV8
 });
 
