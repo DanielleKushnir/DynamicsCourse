@@ -32,10 +32,6 @@ export const superBlockList = [
     path: '08-data-analysis-with-python'
   },
   {
-    name: 'Information Security',
-    path: '09-information-security'
-  },
-  {
     name: 'Machine Learning with Python',
     path: '11-machine-learning-with-python'
   },

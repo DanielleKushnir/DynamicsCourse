@@ -38,7 +38,6 @@ const superBlockFolderMap = {
   'quality-assurance': '06-quality-assurance',
   'scientific-computing-with-python': '07-scientific-computing-with-python',
   'data-analysis-with-python': '08-data-analysis-with-python',
-  'information-security': '09-information-security',
   'machine-learning-with-python': '10-machine-learning-with-python',
   'relational-database': '13-relational-database',
   '2022/responsive-web-design': '14-responsive-web-design-22',

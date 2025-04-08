@@ -22,7 +22,6 @@ const relationalDatabaseBase = '/learn/relational-database';
 const apiMicroBase =
   '/learn/back-end-development-and-apis/back-end-development-and-apis-projects';
 const qaBase = '/learn/quality-assurance/quality-assurance-projects';
-const infoSecBase = '/learn/information-security/information-security-projects';
 const sciCompPyBase = '/learn/scientific-computing-with-python';
 const dataAnalysisPyBase =
   '/learn/data-analysis-with-python/data-analysis-with-python-projects';
@@ -39,7 +38,6 @@ const legacyBackEndBase = apiMicroBase;
 const legacyDataVisBase = dataVisBase;
 const legacyDataVisFrontEndBase = feLibsBase;
 const legacyInfosecQaQaBase = qaBase;
-const legacyInfosecQaInfosecBase = infoSecBase;
 
 // TODO: generate this automatically in a separate file
 // from the md/meta.json files for each cert and projects
@@ -387,44 +385,6 @@ const allStandardCerts = [
       }
     ]
   },
-
-  {
-    id: '5e6021435ac9d0ecd8b94b00',
-    title: 'Information Security',
-    certSlug: Certification.InfoSec,
-    projects: [
-      {
-        id: '587d824a367417b2b2512c44',
-        title: 'Stock Price Checker',
-        link: `${infoSecBase}/stock-price-checker`,
-        certSlug: Certification.InfoSec
-      },
-      {
-        id: '587d824a367417b2b2512c45',
-        title: 'Anonymous Message Board',
-        link: `${infoSecBase}/anonymous-message-board`,
-        certSlug: Certification.InfoSec
-      },
-      {
-        id: '5e46f979ac417301a38fb932',
-        title: 'Port Scanner',
-        link: `${infoSecBase}/port-scanner`,
-        certSlug: Certification.InfoSec
-      },
-      {
-        id: '5e46f983ac417301a38fb933',
-        title: 'SHA-1 Password Cracker',
-        link: `${infoSecBase}/sha-1-password-cracker`,
-        certSlug: Certification.InfoSec
-      },
-      {
-        id: '5e601c775ac9d0ecd8b94aff',
-        title: 'Secure Real Time Multiplayer Game',
-        link: `${infoSecBase}/secure-real-time-multiplayer-game`,
-        certSlug: Certification.InfoSec
-      }
-    ]
-  },
   {
     id: '5e46fc95ac417301a38fb935',
     title: 'Machine Learning with Python',
@@ -660,18 +620,6 @@ const allStandardCerts = [
         id: '587d824a367417b2b2512c43',
         title: 'Personal Library',
         link: `${legacyInfosecQaQaBase}/personal-library`,
-        certSlug: Certification.LegacyInfoSecQa
-      },
-      {
-        id: '587d824a367417b2b2512c44',
-        title: 'Stock Price Checker',
-        link: `${legacyInfosecQaInfosecBase}/stock-price-checker`,
-        certSlug: Certification.LegacyInfoSecQa
-      },
-      {
-        id: '587d824a367417b2b2512c45',
-        title: 'Anonymous Message Board',
-        link: `${legacyInfosecQaInfosecBase}/anonymous-message-board`,
         certSlug: Certification.LegacyInfoSecQa
       }
     ]

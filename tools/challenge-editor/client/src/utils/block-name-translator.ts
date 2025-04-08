@@ -8,7 +8,6 @@ export const superBlockNameMap: { [key: string]: string } = {
   '06-quality-assurance': 'quality-assurance',
   '07-scientific-computing-with-python': 'scientific-computing-with-python',
   '08-data-analysis-with-python': 'data-analysis-with-python',
-  '09-information-security': 'information-security',
   '11-machine-learning-with-python': 'machine-learning-with-python',
   '13-relational-databases': 'relational-databases',
   '14-responsive-web-design-22': '2022/responsive-web-design',

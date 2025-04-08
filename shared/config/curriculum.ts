@@ -15,7 +15,6 @@ export enum SuperBlocks {
   QualityAssurance = 'quality-assurance',
   SciCompPy = 'scientific-computing-with-python',
   DataAnalysisPy = 'data-analysis-with-python',
-  InfoSec = 'information-security',
   MachineLearningPy = 'machine-learning-with-python',
   TheOdinProject = 'the-odin-project',
   CollegeAlgebraPy = 'college-algebra-with-python',
@@ -82,7 +81,6 @@ export const superBlockStages: StageMap = {
     SuperBlocks.QualityAssurance,
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.RespWebDesign,
@@ -104,7 +102,6 @@ type NotAuditedSuperBlocks = {
 export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
   [Languages.English]: [],
   [Languages.Espanol]: [
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
@@ -154,7 +151,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
   [Languages.German]: [
     SuperBlocks.RelationalDb,
     SuperBlocks.QualityAssurance,
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
@@ -171,7 +167,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.QualityAssurance,
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
@@ -191,7 +186,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.QualityAssurance,
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,

@@ -50,7 +50,6 @@ export const orderedSuperBlockInfo = [
   { dashedName: SuperBlocks.BackEndDevApis, public: false },
   { dashedName: SuperBlocks.QualityAssurance, public: false },
   { dashedName: SuperBlocks.SciCompPy, public: false },
-  { dashedName: SuperBlocks.InfoSec, public: false },
   { dashedName: SuperBlocks.FoundationalCSharp, public: false },
   { dashedName: SuperBlocks.JsAlgoDataStruct, public: false }
 ];

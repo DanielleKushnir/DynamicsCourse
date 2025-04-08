@@ -11,7 +11,6 @@ export function getSuperBlockSubPath(superBlock: SuperBlocks): string {
     [SuperBlocks.QualityAssurance]: '06-quality-assurance',
     [SuperBlocks.SciCompPy]: '07-scientific-computing-with-python',
     [SuperBlocks.DataAnalysisPy]: '08-data-analysis-with-python',
-    [SuperBlocks.InfoSec]: '09-information-security',
     [SuperBlocks.MachineLearningPy]: '11-machine-learning-with-python',
     [SuperBlocks.RelationalDb]: '13-relational-databases',
     [SuperBlocks.RespWebDesignNew]: '14-responsive-web-design-22',
