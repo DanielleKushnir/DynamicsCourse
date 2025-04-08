@@ -79,7 +79,6 @@ const directoryToSuperblock = {
   '19-foundational-c-sharp-with-microsoft':
     'foundational-c-sharp-with-microsoft',
   '21-a2-english-for-developers': 'a2-english-for-developers',
-  '22-rosetta-code': 'rosetta-code',
   '23-python-for-everybody': 'python-for-everybody',
   '25-front-end-development': 'full-stack-developer'
 };

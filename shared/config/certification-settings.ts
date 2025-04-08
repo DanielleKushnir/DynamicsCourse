@@ -268,8 +268,7 @@ export const superBlockToCertMap: {
   [SuperBlocks.FullStackDeveloper]: Certification.FullStackDeveloper,
   [SuperBlocks.A2English]: Certification.A2English,
   [SuperBlocks.PythonForEverybody]: null,
-  [SuperBlocks.TheOdinProject]: null,
-  [SuperBlocks.RosettaCode]: null
+  [SuperBlocks.TheOdinProject]: null
 };
 
 export type CertSlug = (typeof Certification)[keyof typeof Certification];

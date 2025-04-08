@@ -21,7 +21,6 @@ export function getSuperBlockSubPath(superBlock: SuperBlocks): string {
     [SuperBlocks.CollegeAlgebraPy]: '17-college-algebra-with-python',
     [SuperBlocks.FoundationalCSharp]: '19-foundational-c-sharp-with-microsoft',
     [SuperBlocks.A2English]: '21-a2-english-for-developers',
-    [SuperBlocks.RosettaCode]: '22-rosetta-code',
     [SuperBlocks.PythonForEverybody]: '23-python-for-everybody',
     [SuperBlocks.FullStackDeveloper]: '25-front-end-development'
   };

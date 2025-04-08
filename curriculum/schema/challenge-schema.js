@@ -187,8 +187,7 @@ const schema = Joi.object()
       'Backend Development',
       'C-Sharp',
       'English',
-      'Odin',
-      'Rosetta'
+      'Odin'
     ),
     isLastChallengeInBlock: Joi.boolean().required(),
     videoUrl: Joi.string().allow(''),

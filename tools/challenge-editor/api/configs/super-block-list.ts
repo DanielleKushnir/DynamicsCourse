@@ -68,10 +68,6 @@ export const superBlockList = [
     path: '21-a2-english-for-developers'
   },
   {
-    name: 'Rosetta Code',
-    path: '22-rosetta-code'
-  },
-  {
     name: 'Python For Everybody',
     path: '23-python-for-everybody'
   },

@@ -22,7 +22,6 @@ export enum SuperBlocks {
   FoundationalCSharp = 'foundational-c-sharp-with-microsoft',
   FullStackDeveloper = 'full-stack-developer',
   A2English = 'a2-english-for-developers',
-  RosettaCode = 'rosetta-code',
   PythonForEverybody = 'python-for-everybody'
 }
 
@@ -72,10 +71,7 @@ export const superBlockStages: StageMap = {
 
   [SuperBlockStage.English]: [SuperBlocks.A2English],
   [SuperBlockStage.Professional]: [SuperBlocks.FoundationalCSharp],
-  [SuperBlockStage.Extra]: [
-    SuperBlocks.TheOdinProject,
-    SuperBlocks.RosettaCode
-  ],
+  [SuperBlockStage.Extra]: [SuperBlocks.TheOdinProject],
   [SuperBlockStage.Legacy]: [
     SuperBlocks.RespWebDesignNew,
     SuperBlocks.JsAlgoDataStructNew,
@@ -206,8 +202,7 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.A2English,
     SuperBlocks.PythonForEverybody,
     SuperBlocks.DataVis,
-    SuperBlocks.RelationalDb,
-    SuperBlocks.RosettaCode
+    SuperBlocks.RelationalDb
   ]
 };
 
