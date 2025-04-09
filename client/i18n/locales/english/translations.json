@@ -113,53 +113,53 @@
     "share-on-threads": "Share on Threads"
   },
   "landing": {
-    "big-heading-1": "Learn to code — for free.",
+    "big-heading-1": "Heading 1",
     "big-heading-1-b": "Learn to code.",
-    "big-heading-2": "Build projects.",
-    "big-heading-3": "Earn certifications.",
+    "big-heading-2": "Heading 2",
+    "big-heading-3": "Heading 3",
     "big-heading-4": "All for free.",
-    "h2-heading": "Since 2014, more than 40,000 freeCodeCamp.org graduates have gotten jobs at tech companies including:",
+    "h2-heading": "Subheading",
     "h2-heading-b": "More than <strong>100,000</strong> freeCodeCamp.org graduates have gotten <strong>jobs</strong> at tech companies including:",
-    "hero-img-description": "freeCodeCamp students at a local study group in South Korea.",
+    "hero-img-description": "image description",
     "hero-img-alt": "A group of people, including a White man, a Black woman, and an Asian woman, gathered around a laptop.",
     "hero-img-uis": "A group of screenshots showing the freeCodeCamp editor interface on both a mobile and desktop device and a certification.",
     "as-seen-in": "As seen in:",
     "testimonials": {
-      "heading": "Here is what our alumni say about freeCodeCamp:",
+      "heading": "heading:",
       "shawn": {
-        "location": "<strong>Shawn Wang</strong> in Singapore",
-        "occupation": "Software Engineer at <strong>Amazon</strong>",
-        "testimony": "\"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp. Within a year I had a six-figure job as a Software Engineer. <strong>freeCodeCamp changed my life.</strong>\""
+        "location": "<strong>BOLD</strong> content",
+        "occupation": "content in <strong>BOLD</strong>",
+        "testimony": "\"card description\""
       },
       "sarah": {
-        "location": "<strong>Sarah Chima</strong> in Nigeria",
-        "occupation": "Software Engineer at <strong>ChatDesk</strong>",
-        "testimony": "\"<strong>freeCodeCamp was the gateway to my career</strong> as a software developer. The well-structured curriculum took my coding knowledge from a total beginner level to a very confident level. It was everything I needed to land my first dev job at an amazing company.\""
+        "location": "<strong>BOLD</strong> content",
+        "occupation": "Content in <strong>bold</strong>",
+        "testimony": "\"card description\""
       },
       "emma": {
-        "location": "<strong>Emma Bostian</strong> in Sweden",
-        "occupation": "Software Engineer at <strong>Spotify</strong>",
-        "testimony": "\"I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck. Studying JavaScript as well as data structures and algorithms on <strong>freeCodeCamp gave me the skills</strong> and confidence I needed to land my dream job as a software engineer at Spotify.\""
+        "location": "<strong>BOLD</strong> content",
+        "occupation": "Content in <strong>BOLD</strong>",
+        "testimony": "\"card description\""
       }
     },
     "benefits": {
-      "heading": "Why learn with freeCodeCamp:",
+      "heading": "Heading:",
       "list": [
         {
-          "title": "Large Community",
-          "description": "Join our vibrant  learning community of students, alumni, and educators."
+          "title": "title 1",
+          "description": "description"
         },
         {
-          "title": "Free Education",
-          "description": "Learn from our charity and save money on your education. This is made possible by the generous support of our monthly donors."
+          "title": "title 2",
+          "description": "description"
         },
         {
-          "title": "Extensive Certifications",
-          "description": "Earn industry-recognized, verifiable certifications in high-demand technologies."
+          "title": "title 3",
+          "description": "description"
         },
         {
-          "title": "Comprehensive Curriculum",
-          "description": "Enhance your technical skills with our linear, world-class, project-based curriculum."
+          "title": "title 4",
+          "description": "description"
         }
       ],
       "cta": "Start Learning Now"
@@ -173,59 +173,40 @@
     "faq": "Frequently asked questions:",
     "faqs": [
       {
-        "question": "What exactly is freeCodeCamp?",
-        "answer": [
-          "freeCodeCamp is a community of people from all around the world who are learning to code together. We're a 501(c)(3) public charity."
-        ]
+        "question": "question 1?",
+        "answer": ["answer"]
       },
       {
-        "question": "How will freeCodeCamp help me learn to code?",
-        "answer": [
-          "You will learn to code by building dozens of projects, step-by-step, right in your browser, code editor, or mobile app.",
-          "You will also earn free verified certifications along the way."
-        ]
+        "question": "question 2?",
+        "answer": ["answer", "answer"]
       },
       {
-        "question": "Is freeCodeCamp really free?",
-        "answer": [
-          "Yes. Every aspect of freeCodeCamp is 100% free. The courses, the projects, and even the certifications."
-        ]
+        "question": "question 3?",
+        "answer": ["answer"]
       },
       {
-        "question": "Can freeCodeCamp help me get a job as a software developer?",
-        "answer": [
-          "Yes. Every year, thousands of people who join the freeCodeCamp community get their first software developer job."
-        ]
+        "question": "question 4?",
+        "answer": ["answer"]
       },
       {
-        "question": "What skills will I learn?",
-        "answer": [
-          "You will learn the skills most developers use on the job: HTML, CSS, JavaScript, Python, Linux, Git, and SQL, and more. You'll also learn how to use powerful libraries for web development, mobile app development, data science, and artificial intelligence."
-        ]
+        "question": "question 5?",
+        "answer": ["answer"]
       },
       {
-        "question": "How long does it take to learn all this?",
-        "answer": [
-          "freeCodeCamp is self-paced. Realistically, it may take several years of practicing coding to learn these skills well enough to get a job as a software engineer. Don't quit school or your day job until you feel ready."
-        ]
+        "question": "question 6?",
+        "answer": ["answer"]
       },
       {
-        "question": "How do I get started?",
-        "answer": [
-          "If you're a beginner, you should start at the beginning of the freeCodeCamp core curriculum. If you're more advanced, we still recommend starting at the beginning, but you can skip to whatever area you wish."
-        ]
+        "question": "question 7?",
+        "answer": ["answer"]
       },
       {
-        "question": "How do I earn the free verified certifications?",
-        "answer": [
-          "For each certification, you need to build its 5 certification projects, and get all of the project tests to pass to be able to claim your certification."
-        ]
+        "question": "question 8?",
+        "answer": ["answer"]
       },
       {
-        "question": "I don't see [name of tool] in the freeCodeCamp core curriculum.",
-        "answer": [
-          "Aside from the freeCodeCamp core curriculum, We have thousands of free, full-length books, courses, and programming tutorials. We almost certainly teach whatever programming tools you want to learn. Just use the search bar."
-        ]
+        "question": "question 9?",
+        "answer": ["answer"]
       }
     ]
   },

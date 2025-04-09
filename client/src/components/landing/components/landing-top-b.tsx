@@ -1,24 +1,10 @@
 import React from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 import { Container, Col, Row, Spacer } from '@freecodecamp/ui';
-import { clientLocale } from '../../../../config/env.json';
-import {
-  AmazonLogo,
-  AppleLogo,
-  MicrosoftLogo,
-  SpotifyLogo,
-  GoogleLogo,
-  TencentLogo,
-  AlibabaLogo
-} from '../../../assets/images/components';
 import BigCallToAction from './big-call-to-action';
 import CampersImage from './campers-image';
 
 const LogoRow = (): JSX.Element => {
-  const showChineseLogos = ['chinese', 'chinese-tradition'].includes(
-    clientLocale
-  );
-
   return (
     <>
       <p
@@ -30,22 +16,7 @@ const LogoRow = (): JSX.Element => {
       <div
         className='logo-row'
         data-playwright-test-label='brand-logo-container'
-      >
-        <AppleLogo />
-        <GoogleLogo />
-        <MicrosoftLogo />
-        {showChineseLogos ? (
-          <>
-            <TencentLogo />
-            <AlibabaLogo />
-          </>
-        ) : (
-          <>
-            <SpotifyLogo />
-            <AmazonLogo />
-          </>
-        )}
-      </div>
+      ></div>
     </>
   );
 };
