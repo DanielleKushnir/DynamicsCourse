@@ -1,8 +1,8 @@
 {
   "buttons": {
-    "logged-in-cta-btn": "Get started (it's free)",
+    "logged-in-cta-btn": "Get started",
     "get-started": "Get Started",
-    "logged-out-cta-btn": "Sign in to save your progress (it's free)",
+    "logged-out-cta-btn": "Sign in to save your progress",
     "view-curriculum": "View the Curriculum",
     "first-lesson": "Go to the first lesson",
     "close": "Close",
@@ -162,14 +162,12 @@
           "description": "Enhance your technical skills with our linear, world-class, project-based curriculum."
         }
       ],
-      "cta": "Start Learning Now (it's free)"
+      "cta": "Start Learning Now"
     },
-    "certification-heading": "Earn free verified certifications in:",
-    "core-certs-heading": "Recommended curriculum (still in beta):",
-    "learn-english-heading": "Learn English for Developers:",
-    "professional-certs-heading": "Professional certifications:",
-    "interview-prep-heading": "Prepare for the developer interview job search:",
-    "legacy-curriculum-heading": "Our archived coursework:",
+    "core-certs-heading": "Section Heading 1:",
+    "learn-english-heading": "Section Heading 2:",
+    "professional-certs-heading": "Section Heading 4:",
+    "legacy-curriculum-heading": "Section Heading 3:",
     "next-heading": "Try our beta curriculum:",
     "upcoming-heading": "Upcoming curriculum:",
     "faq": "Frequently asked questions:",
@@ -373,33 +371,28 @@
     "add-threads": "Share this certification on Threads"
   },
   "footer": {
-    "tax-exempt-status": "freeCodeCamp is a donor-supported tax-exempt 501(c)(3) charitable organization (United States Federal Tax Identification Number: 82-0779546).",
-    "mission-statement": "Our mission: to help people learn to code for free. We accomplish this by creating thousands of videos, articles, and interactive coding lessons - all freely available to the public.",
-    "donation-initiatives": "Donations to freeCodeCamp go toward our education initiatives, and help pay for servers, services, and staff.",
-    "donate-text": "You can <1>make a tax-deductible donation here</1>.",
-    "trending-guides": "Trending Guides",
-    "mobile-app": "Mobile App",
-    "our-nonprofit": "Our Charity",
+    "mission-statement": "Our mission: to help people go from mid-level to senior-level.",
+    "example-text": "Kept an example link",
     "links": {
-      "about": "About",
-      "alumni": "Alumni Network",
-      "open-source": "Open Source",
-      "shop": "Shop",
-      "support": "Support",
-      "sponsors": "Sponsors",
-      "honesty": "Academic Honesty",
-      "coc": "Code of Conduct",
-      "privacy": "Privacy Policy",
-      "tos": "Terms of Service",
-      "copyright": "Copyright Policy"
+      "about": "url1",
+      "alumni": "url2",
+      "open-source": "url3",
+      "shop": "url4",
+      "support": "url5",
+      "sponsors": "url6",
+      "honesty": "url7",
+      "coc": "url8",
+      "privacy": "url9",
+      "tos": "url10",
+      "copyright": "url11"
     },
     "language": "Language:"
   },
   "learn": {
-    "heading": "Welcome to freeCodeCamp's curriculum.",
+    "heading": "Welcome to the Dynamics Course.",
     "skip-to-content": "Skip to content",
     "welcome-1": "Welcome back, {{name}}.",
-    "welcome-2": "Welcome to freeCodeCamp.org",
+    "welcome-2": "Welcome to the Dynamics Course",
     "start-at-beginning": "If you are new to coding, we recommend you <0>start at the beginning</0>.",
     "happy-coding": "Happy coding!",
     "upcoming-lessons": "Upcoming Lessons",
@@ -760,8 +753,8 @@
   "search": {
     "label": "Search",
     "placeholder": {
-      "default": "Search our news articles, tutorials, and books",
-      "numbered": "Search {{ roundedTotalRecords }}+ news articles, tutorials, and books"
+      "default": "Search our courses",
+      "numbered": "Search {{ roundedTotalRecords }}+ courses"
     },
     "see-results": "See all results for {{searchQuery}}",
     "try": "Looking for something? Try the search bar on this page.",
