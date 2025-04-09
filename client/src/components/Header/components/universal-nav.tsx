@@ -6,10 +6,8 @@ import { isLanding } from '../../../utils/path-parsers';
 import { Link, SkeletonSprite } from '../../helpers';
 import { SEARCH_EXPOSED_WIDTH } from '../../../../config/misc';
 import FreeCodeCampLogo from '../../../assets/icons/freecodecamp-logo';
-import MenuButton from './menu-button';
 import NavLinks from './nav-links';
 import AuthOrProfile from './auth-or-profile';
-import LanguageList from './language-list';
 
 import './universal-nav.css';
 
@@ -82,13 +80,7 @@ const UniversalNav = ({
           </div>
         ) : (
           <>
-            <LanguageList />
-            <MenuButton
-              displayMenu={displayMenu}
-              hideMenu={hideMenu}
-              innerRef={menuButtonRef}
-              showMenu={showMenu}
-            />
+            {/*<LanguageList /> <- uncomment for language change*/}
             {!isSearchExposedWidth && search}
             <NavLinks
               displayMenu={displayMenu}

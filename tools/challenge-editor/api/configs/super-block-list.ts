@@ -32,20 +32,8 @@ export const superBlockList = [
     path: '08-data-analysis-with-python'
   },
   {
-    name: 'Information Security',
-    path: '09-information-security'
-  },
-  {
-    name: 'Coding Interview Prep',
-    path: '10-coding-interview-prep'
-  },
-  {
     name: 'Machine Learning with Python',
     path: '11-machine-learning-with-python'
-  },
-  {
-    name: 'Relational Databases',
-    path: '13-relational-databases'
   },
   {
     name: 'Responsive Web Design',
@@ -60,14 +48,6 @@ export const superBlockList = [
     path: '16-the-odin-project'
   },
   {
-    name: 'College Algebra with Python',
-    path: '17-college-algebra-with-python'
-  },
-  {
-    name: 'Project Euler',
-    path: '18-project-euler'
-  },
-  {
     name: '(New) Foundational C# with Microsoft',
     path: '19-foundational-c-sharp-with-microsoft'
   },
@@ -76,16 +56,8 @@ export const superBlockList = [
     path: '21-a2-english-for-developers'
   },
   {
-    name: 'Rosetta Code',
-    path: '22-rosetta-code'
-  },
-  {
     name: 'Python For Everybody',
     path: '23-python-for-everybody'
-  },
-  {
-    name: 'B1 English for Developers (Beta)',
-    path: '24-b1-english-for-developers'
   },
   {
     name: 'Certified Full Stack Developer',

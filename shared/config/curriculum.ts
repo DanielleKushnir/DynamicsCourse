@@ -10,22 +10,15 @@ export enum SuperBlocks {
   JsAlgoDataStructNew = 'javascript-algorithms-and-data-structures-v8',
   FrontEndDevLibs = 'front-end-development-libraries',
   DataVis = 'data-visualization',
-  RelationalDb = 'relational-database',
   BackEndDevApis = 'back-end-development-and-apis',
   QualityAssurance = 'quality-assurance',
   SciCompPy = 'scientific-computing-with-python',
   DataAnalysisPy = 'data-analysis-with-python',
-  InfoSec = 'information-security',
   MachineLearningPy = 'machine-learning-with-python',
-  CodingInterviewPrep = 'coding-interview-prep',
   TheOdinProject = 'the-odin-project',
-  ProjectEuler = 'project-euler',
-  CollegeAlgebraPy = 'college-algebra-with-python',
   FoundationalCSharp = 'foundational-c-sharp-with-microsoft',
   FullStackDeveloper = 'full-stack-developer',
   A2English = 'a2-english-for-developers',
-  B1English = 'b1-english-for-developers',
-  RosettaCode = 'rosetta-code',
   PythonForEverybody = 'python-for-everybody'
 }
 
@@ -73,27 +66,19 @@ export type StageMap = {
 export const superBlockStages: StageMap = {
   [SuperBlockStage.Core]: [SuperBlocks.FullStackDeveloper],
 
-  [SuperBlockStage.English]: [SuperBlocks.A2English, SuperBlocks.B1English],
+  [SuperBlockStage.English]: [SuperBlocks.A2English],
   [SuperBlockStage.Professional]: [SuperBlocks.FoundationalCSharp],
-  [SuperBlockStage.Extra]: [
-    SuperBlocks.TheOdinProject,
-    SuperBlocks.CodingInterviewPrep,
-    SuperBlocks.ProjectEuler,
-    SuperBlocks.RosettaCode
-  ],
+  [SuperBlockStage.Extra]: [SuperBlocks.TheOdinProject],
   [SuperBlockStage.Legacy]: [
     SuperBlocks.RespWebDesignNew,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.FrontEndDevLibs,
     SuperBlocks.DataVis,
-    SuperBlocks.RelationalDb,
     SuperBlocks.BackEndDevApis,
     SuperBlocks.QualityAssurance,
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.RespWebDesign,
     SuperBlocks.JsAlgoDataStruct,
     SuperBlocks.PythonForEverybody
@@ -113,35 +98,24 @@ type NotAuditedSuperBlocks = {
 export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
   [Languages.English]: [],
   [Languages.Espanol]: [
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.CodingInterviewPrep,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Chinese]: [
-    SuperBlocks.CodingInterviewPrep,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.ChineseTraditional]: [
-    SuperBlocks.CodingInterviewPrep,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Italian]: [
@@ -150,58 +124,43 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Portuguese]: [
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Ukrainian]: [
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.FullStackDeveloper,
-    SuperBlocks.A2English,
-    SuperBlocks.B1English
+    SuperBlocks.A2English
   ],
   [Languages.Japanese]: [
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
-    SuperBlocks.A2English,
-    SuperBlocks.B1English
+    SuperBlocks.A2English
   ],
   [Languages.German]: [
-    SuperBlocks.RelationalDb,
     SuperBlocks.QualityAssurance,
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.CodingInterviewPrep,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Swahili]: [
     SuperBlocks.DataVis,
-    SuperBlocks.RelationalDb,
     SuperBlocks.BackEndDevApis,
     SuperBlocks.QualityAssurance,
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.CodingInterviewPrep,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.RespWebDesign,
     SuperBlocks.FrontEndDevLibs,
@@ -209,7 +168,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.JsAlgoDataStruct,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody
   ],
   [Languages.Korean]: [
@@ -219,22 +177,15 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.QualityAssurance,
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
-    SuperBlocks.InfoSec,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
-    SuperBlocks.CodingInterviewPrep,
-    SuperBlocks.ProjectEuler,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FrontEndDevLibs,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
-    SuperBlocks.B1English,
     SuperBlocks.PythonForEverybody,
-    SuperBlocks.DataVis,
-    SuperBlocks.RelationalDb,
-    SuperBlocks.RosettaCode
+    SuperBlocks.DataVis
   ]
 };
 

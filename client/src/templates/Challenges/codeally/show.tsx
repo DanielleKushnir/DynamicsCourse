@@ -45,8 +45,6 @@ import ProjectToolPanel from '../projects/tool-panel';
 import { getChallengePaths } from '../utils/challenge-paths';
 import SolutionForm from '../projects/solution-form';
 import { FlashMessages } from '../../../components/Flash/redux/flash-messages';
-import { SuperBlocks } from '../../../../../shared/config/curriculum';
-import { CodeAllyDown } from '../../../components/growth-book/codeally-down';
 import { postUserToken } from '../../../utils/ajax';
 import { CodeAllyButton } from '../../../components/growth-book/codeally-button';
 
@@ -278,8 +276,6 @@ function ShowCodeAlly(props: ShowCodeAllyProps) {
         <Container>
           <Row>
             <Col md={8} mdOffset={2} sm={10} smOffset={1} xs={12}>
-              <Spacer size='m' />
-              {superBlock === SuperBlocks.RelationalDb && <CodeAllyDown />}
               <Spacer size='m' />
               <ChallengeTitle
                 isCompleted={isChallengeCompleted}

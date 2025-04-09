@@ -121,7 +121,6 @@ export const certificatesByNameSelector = username => state => {
     isSciCompPyCertV7,
     isDataAnalysisPyCertV7,
     isMachineLearningPyCertV7,
-    isRelationalDatabaseCertV8,
     isCollegeAlgebraPyCertV8,
     isFoundationalCSharpCertV8,
     isJsAlgoDataStructCertV8
@@ -138,7 +137,6 @@ export const certificatesByNameSelector = username => state => {
       isSciCompPyCertV7 ||
       isDataAnalysisPyCertV7 ||
       isMachineLearningPyCertV7 ||
-      isRelationalDatabaseCertV8 ||
       isCollegeAlgebraPyCertV8 ||
       isFoundationalCSharpCertV8 ||
       isJsAlgoDataStructCertV8,
@@ -169,11 +167,6 @@ export const certificatesByNameSelector = username => state => {
         show: is2018DataVisCert,
         title: 'Data Visualization Certification',
         certSlug: Certification.DataVis
-      },
-      {
-        show: isRelationalDatabaseCertV8,
-        title: 'Relational Database Certification',
-        certSlug: Certification.RelationalDb
       },
       {
         show: isApisMicroservicesCert,

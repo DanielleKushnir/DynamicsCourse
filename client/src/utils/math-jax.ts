@@ -10,8 +10,6 @@ export const isMathJaxAllowed = (pathname: string) =>
 const superBlocksWithMathJax = [
   SuperBlocks.JsAlgoDataStructNew,
   SuperBlocks.JsAlgoDataStruct,
-  SuperBlocks.ProjectEuler,
-  SuperBlocks.RosettaCode,
   SuperBlocks.SciCompPy
 ];
 

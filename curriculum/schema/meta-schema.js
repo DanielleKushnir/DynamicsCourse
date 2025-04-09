@@ -70,9 +70,7 @@ const schema = Joi.object()
       'Backend Development',
       'C-Sharp',
       'English',
-      'Odin',
-      'Euler',
-      'Rosetta'
+      'Odin'
     ).required()
   })
   // this makes sure there is no unknown key in the object

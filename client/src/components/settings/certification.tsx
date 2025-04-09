@@ -51,7 +51,6 @@ const createCertifiedMap = ({
   isJsAlgoDataStructCert,
   isInfosecQaCert,
   isQaCertV7,
-  isInfosecCertV7,
   isFrontEndLibsCert,
   isRespWebDesignCert,
   isDataVisCert,
@@ -60,8 +59,6 @@ const createCertifiedMap = ({
   isSciCompPyCertV7,
   isDataAnalysisPyCertV7,
   isMachineLearningPyCertV7,
-  isRelationalDatabaseCertV8,
-  isCollegeAlgebraPyCertV8,
   isFoundationalCSharpCertV8,
   isJsAlgoDataStructCertV8
 }: ClaimedCertifications): Record<
@@ -74,12 +71,9 @@ const createCertifiedMap = ({
   [Certification.DataVis]: is2018DataVisCert,
   [Certification.BackEndDevApis]: isApisMicroservicesCert,
   [Certification.QualityAssurance]: isQaCertV7,
-  [Certification.InfoSec]: isInfosecCertV7,
   [Certification.SciCompPy]: isSciCompPyCertV7,
   [Certification.DataAnalysisPy]: isDataAnalysisPyCertV7,
   [Certification.MachineLearningPy]: isMachineLearningPyCertV7,
-  [Certification.RelationalDb]: isRelationalDatabaseCertV8,
-  [Certification.CollegeAlgebraPy]: isCollegeAlgebraPyCertV8,
   [Certification.FoundationalCSharp]: isFoundationalCSharpCertV8,
   [Certification.LegacyFrontEnd]: isFrontEndCert,
   [Certification.LegacyDataVis]: isDataVisCert,
@@ -90,7 +84,6 @@ const createCertifiedMap = ({
   // certification with projects.
   [Certification.FullStackDeveloper]: false,
   [Certification.A2English]: false,
-  [Certification.B1English]: false,
   [Certification.JsAlgoDataStructNew]: isJsAlgoDataStructCertV8
 });
 

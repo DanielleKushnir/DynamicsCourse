@@ -37,9 +37,7 @@ export const orderedSuperBlockInfo = [
   { dashedName: SuperBlocks.RespWebDesignNew, public: true },
   { dashedName: SuperBlocks.DataAnalysisPy, public: true },
   { dashedName: SuperBlocks.MachineLearningPy, public: true },
-  { dashedName: SuperBlocks.CollegeAlgebraPy, public: true },
   { dashedName: SuperBlocks.A2English, public: true },
-  { dashedName: SuperBlocks.B1English, public: true },
   { dashedName: SuperBlocks.TheOdinProject, public: true },
   { dashedName: SuperBlocks.RespWebDesign, public: true },
   { dashedName: SuperBlocks.PythonForEverybody, public: true },
@@ -47,15 +45,10 @@ export const orderedSuperBlockInfo = [
   { dashedName: SuperBlocks.JsAlgoDataStructNew, public: false },
   { dashedName: SuperBlocks.FrontEndDevLibs, public: false },
   { dashedName: SuperBlocks.DataVis, public: false },
-  { dashedName: SuperBlocks.RelationalDb, public: false },
   { dashedName: SuperBlocks.BackEndDevApis, public: false },
   { dashedName: SuperBlocks.QualityAssurance, public: false },
   { dashedName: SuperBlocks.SciCompPy, public: false },
-  { dashedName: SuperBlocks.InfoSec, public: false },
   { dashedName: SuperBlocks.FoundationalCSharp, public: false },
-  { dashedName: SuperBlocks.CodingInterviewPrep, public: false },
-  { dashedName: SuperBlocks.ProjectEuler, public: false },
-  { dashedName: SuperBlocks.RosettaCode, public: false },
   { dashedName: SuperBlocks.JsAlgoDataStruct, public: false }
 ];
 

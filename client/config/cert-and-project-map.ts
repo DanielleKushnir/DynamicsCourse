@@ -18,33 +18,24 @@ const jsAlgo22Base = '/learn/javascript-algorithms-and-data-structures-v8';
 const feLibsBase =
   '/learn/front-end-development-libraries/front-end-development-libraries-projects';
 const dataVisBase = '/learn/data-visualization/data-visualization-projects';
-const relationalDatabaseBase = '/learn/relational-database';
 const apiMicroBase =
   '/learn/back-end-development-and-apis/back-end-development-and-apis-projects';
 const qaBase = '/learn/quality-assurance/quality-assurance-projects';
-const infoSecBase = '/learn/information-security/information-security-projects';
 const sciCompPyBase = '/learn/scientific-computing-with-python';
 const dataAnalysisPyBase =
   '/learn/data-analysis-with-python/data-analysis-with-python-projects';
 const machineLearningPyBase =
   '/learn/machine-learning-with-python/machine-learning-with-python-projects';
-const collegeAlgebraPyBase = '/learn/college-algebra-with-python';
-const takeHomeBase = '/learn/coding-interview-prep/take-home-projects';
 const foundationalCSharpBase =
   '/learn/foundational-c-sharp-with-microsoft/foundational-c-sharp-with-microsoft-certification-exam';
 const fullStackDeveloperBase = '/learn/full-stack-developer';
 const a2EnglishBase = '/learn/a2-english-for-developers';
-const b1EnglishBase = '/learn/b1-english-for-developers';
 const legacyFrontEndBase = feLibsBase;
 const legacyFrontEndResponsiveBase = responsiveWebBase;
-const legacyFrontEndTakeHomeBase = takeHomeBase;
 const legacyBackEndBase = apiMicroBase;
-const legacyBackEndTakeHomeBase = takeHomeBase;
 const legacyDataVisBase = dataVisBase;
 const legacyDataVisFrontEndBase = feLibsBase;
-const legacyDataVisTakeHomeBase = takeHomeBase;
 const legacyInfosecQaQaBase = qaBase;
-const legacyInfosecQaInfosecBase = infoSecBase;
 
 // TODO: generate this automatically in a separate file
 // from the md/meta.json files for each cert and projects
@@ -208,43 +199,6 @@ const allStandardCerts = [
     ]
   },
   {
-    id: '606243f50267e718b1e755f4',
-    title: 'Relational Database',
-    certSlug: Certification.RelationalDb,
-    projects: [
-      {
-        id: '5f1a4ef5d5d6b5ab580fc6ae',
-        title: 'Celestial Bodies Database',
-        link: `${relationalDatabaseBase}/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database`,
-        certSlug: Certification.RelationalDb
-      },
-      {
-        id: '5f9771307d4d22b9d2b75a94',
-        title: 'World Cup Database',
-        link: `${relationalDatabaseBase}/build-a-world-cup-database-project/build-a-world-cup-database`,
-        certSlug: Certification.RelationalDb
-      },
-      {
-        id: '5f87ac112ae598023a42df1a',
-        title: 'Salon Appointment Scheduler',
-        link: `${relationalDatabaseBase}/build-a-salon-appointment-scheduler-project/build-a-salon-appointment-scheduler`,
-        certSlug: Certification.RelationalDb
-      },
-      {
-        id: '602d9ff222201c65d2a019f2',
-        title: 'Periodic Table Database',
-        link: `${relationalDatabaseBase}/build-a-periodic-table-database-project/build-a-periodic-table-database`,
-        certSlug: Certification.RelationalDb
-      },
-      {
-        id: '602da04c22201c65d2a019f4',
-        title: 'Number Guessing Game',
-        link: `${relationalDatabaseBase}/build-a-number-guessing-game-project/build-a-number-guessing-game`,
-        certSlug: Certification.RelationalDb
-      }
-    ]
-  },
-  {
     id: '561add10cb82ac38a17523bc',
     title: 'Back End Development and APIs',
     certSlug: Certification.BackEndDevApis,
@@ -392,44 +346,6 @@ const allStandardCerts = [
       }
     ]
   },
-
-  {
-    id: '5e6021435ac9d0ecd8b94b00',
-    title: 'Information Security',
-    certSlug: Certification.InfoSec,
-    projects: [
-      {
-        id: '587d824a367417b2b2512c44',
-        title: 'Stock Price Checker',
-        link: `${infoSecBase}/stock-price-checker`,
-        certSlug: Certification.InfoSec
-      },
-      {
-        id: '587d824a367417b2b2512c45',
-        title: 'Anonymous Message Board',
-        link: `${infoSecBase}/anonymous-message-board`,
-        certSlug: Certification.InfoSec
-      },
-      {
-        id: '5e46f979ac417301a38fb932',
-        title: 'Port Scanner',
-        link: `${infoSecBase}/port-scanner`,
-        certSlug: Certification.InfoSec
-      },
-      {
-        id: '5e46f983ac417301a38fb933',
-        title: 'SHA-1 Password Cracker',
-        link: `${infoSecBase}/sha-1-password-cracker`,
-        certSlug: Certification.InfoSec
-      },
-      {
-        id: '5e601c775ac9d0ecd8b94aff',
-        title: 'Secure Real Time Multiplayer Game',
-        link: `${infoSecBase}/secure-real-time-multiplayer-game`,
-        certSlug: Certification.InfoSec
-      }
-    ]
-  },
   {
     id: '5e46fc95ac417301a38fb935',
     title: 'Machine Learning with Python',
@@ -467,43 +383,6 @@ const allStandardCerts = [
       }
     ]
   },
-  {
-    id: '61531b20cc9dfa2741a5b800',
-    title: 'College Algebra with Python',
-    certSlug: Certification.CollegeAlgebraPy,
-    projects: [
-      {
-        id: '63d83ff239c73468b059cd3f',
-        title: 'Build a Multi-Function Calculator',
-        link: getCollegeAlgebraPyPath('build-a-multi-function-calculator'),
-        certSlug: Certification.CollegeAlgebraPy
-      },
-      {
-        id: '63d83ffd39c73468b059cd40',
-        title: 'Build a Graphing Calculator',
-        link: getCollegeAlgebraPyPath('build-a-graphing-calculator'),
-        certSlug: Certification.CollegeAlgebraPy
-      },
-      {
-        id: '63d8401039c73468b059cd41',
-        title: 'Build Three Math Games',
-        link: getCollegeAlgebraPyPath('build-three-math-games'),
-        certSlug: Certification.CollegeAlgebraPy
-      },
-      {
-        id: '63d8401e39c73468b059cd42',
-        title: 'Build a Financial Calculator',
-        link: getCollegeAlgebraPyPath('build-a-financial-calculator'),
-        certSlug: Certification.CollegeAlgebraPy
-      },
-      {
-        id: '63d8402e39c73468b059cd43',
-        title: 'Build a Data Graph Explorer',
-        link: getCollegeAlgebraPyPath('build-a-data-graph-explorer'),
-        certSlug: Certification.CollegeAlgebraPy
-      }
-    ]
-  },
   // Legacy certifications
   {
     id: '561add10cb82ac38a17513be',
@@ -535,39 +414,9 @@ const allStandardCerts = [
         certSlug: Certification.LegacyFrontEnd
       },
       {
-        id: 'bd7158d8c442eddfaeb5bd10',
-        title: 'Show the Local Weather',
-        link: `${legacyFrontEndTakeHomeBase}/show-the-local-weather`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
-        id: 'bd7158d8c442eddfaeb5bd1f',
-        title: 'Use the TwitchTV JSON API',
-        link: `${legacyFrontEndTakeHomeBase}/use-the-twitch-json-api`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
         id: 'bd7158d8c442eddfaeb5bd18',
         title: 'Build a Tribute Page',
         link: `${legacyFrontEndResponsiveBase}/build-a-tribute-page`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
-        id: 'bd7158d8c442eddfaeb5bd19',
-        title: 'Build a Wikipedia Viewer',
-        link: `${legacyFrontEndTakeHomeBase}/build-a-wikipedia-viewer`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
-        id: 'bd7158d8c442eedfaeb5bd1c',
-        title: 'Build a Tic Tac Toe Game',
-        link: `${legacyFrontEndTakeHomeBase}/build-a-tic-tac-toe-game`,
-        certSlug: Certification.LegacyFrontEnd
-      },
-      {
-        id: 'bd7158d8c442eddfaeb5bd1c',
-        title: 'Build a Simon Game',
-        link: `${legacyFrontEndTakeHomeBase}/build-a-simon-game`,
         certSlug: Certification.LegacyFrontEnd
       }
     ]
@@ -633,45 +482,9 @@ const allStandardCerts = [
         certSlug: Certification.LegacyBackEnd
       },
       {
-        id: 'bd7158d8c443edefaeb5bdee',
-        title: 'Image Search Abstraction Layer',
-        link: `${legacyBackEndTakeHomeBase}/build-an-image-search-abstraction-layer`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
         id: 'bd7158d8c443edefaeb5bd0f',
         title: 'File Metadata Microservice',
         link: `${legacyBackEndBase}/file-metadata-microservice`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bdef',
-        title: 'Build a Voting App',
-        link: `${legacyBackEndTakeHomeBase}/build-a-voting-app`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bdff',
-        title: 'Build a Nightlife Coordination App',
-        link: `${legacyBackEndTakeHomeBase}/build-a-nightlife-coordination-app`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bd0e',
-        title: 'Chart the Stock Market',
-        link: `${legacyBackEndTakeHomeBase}/chart-the-stock-market`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bd0f',
-        title: 'Manage a Book Trading Club',
-        link: `${legacyBackEndTakeHomeBase}/manage-a-book-trading-club`,
-        certSlug: Certification.LegacyBackEnd
-      },
-      {
-        id: 'bd7158d8c443eddfaeb5bdee',
-        title: 'Build a Pinterest Clone',
-        link: `${legacyBackEndTakeHomeBase}/build-a-pinterest-clone`,
         certSlug: Certification.LegacyBackEnd
       }
     ]
@@ -686,30 +499,6 @@ const allStandardCerts = [
         id: 'bd7157d8c242eddfaeb5bd13',
         title: 'Build a Markdown Previewer',
         link: `${legacyDataVisFrontEndBase}/build-a-markdown-previewer`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7156d8c242eddfaeb5bd13',
-        title: 'Build a freeCodeCamp Forum Homepage',
-        link: `${legacyDataVisTakeHomeBase}/build-a-freecodecamp-forum-homepage`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7155d8c242eddfaeb5bd13',
-        title: 'Build a Recipe Box',
-        link: `${legacyDataVisTakeHomeBase}/build-a-recipe-box`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7154d8c242eddfaeb5bd13',
-        title: 'Build the Game of Life',
-        link: `${legacyDataVisTakeHomeBase}/build-the-game-of-life`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7153d8c242eddfaeb5bd13',
-        title: 'Build a Roguelike Dungeon Crawler Game',
-        link: `${legacyDataVisTakeHomeBase}/build-a-roguelike-dungeon-crawler-game`,
         certSlug: Certification.LegacyDataVis
       },
       {
@@ -728,18 +517,6 @@ const allStandardCerts = [
         id: 'bd7188d8c242eddfaeb5bd13',
         title: 'Visualize Data with a Heat Map',
         link: `${legacyDataVisBase}/visualize-data-with-a-heat-map`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7198d8c242eddfaeb5bd13',
-        title: 'Show National Contiguity with a Force Directed Graph',
-        link: `${legacyDataVisTakeHomeBase}/show-national-contiguity-with-a-force-directed-graph`,
-        certSlug: Certification.LegacyDataVis
-      },
-      {
-        id: 'bd7108d8c242eddfaeb5bd13',
-        title: 'Map Data Across the Globe',
-        link: `${legacyDataVisTakeHomeBase}/map-data-across-the-globe`,
         certSlug: Certification.LegacyDataVis
       }
     ]
@@ -767,18 +544,6 @@ const allStandardCerts = [
         id: '587d824a367417b2b2512c43',
         title: 'Personal Library',
         link: `${legacyInfosecQaQaBase}/personal-library`,
-        certSlug: Certification.LegacyInfoSecQa
-      },
-      {
-        id: '587d824a367417b2b2512c44',
-        title: 'Stock Price Checker',
-        link: `${legacyInfosecQaInfosecBase}/stock-price-checker`,
-        certSlug: Certification.LegacyInfoSecQa
-      },
-      {
-        id: '587d824a367417b2b2512c45',
-        title: 'Anonymous Message Board',
-        link: `${legacyInfosecQaInfosecBase}/anonymous-message-board`,
         certSlug: Certification.LegacyInfoSecQa
       }
     ]
@@ -822,28 +587,11 @@ const allStandardCerts = [
         certSlug: Certification.A2English
       }
     ]
-  },
-  {
-    id: '66607e53317411dd5e8aae21',
-    title: 'B1 English for Developers',
-    certSlug: Certification.B1English,
-    projects: [
-      {
-        id: '66607e5b317411dd5e8aae22',
-        title: "Dialogue 1: I'm Tom",
-        link: `${b1EnglishBase}/learn-how-to-describe-places-and-events/dialogue-1-im-tom`,
-        certSlug: Certification.B1English
-      }
-    ]
   }
 ] as const;
 
 function getResponsiveWebDesignPath(project: string) {
   return `${responsiveWeb22Base}/${project}-project/${project}`;
-}
-
-function getCollegeAlgebraPyPath(project: string) {
-  return `${collegeAlgebraPyBase}/${project}-project/${project}`;
 }
 
 function getJavaScriptAlgoPath(project: string) {

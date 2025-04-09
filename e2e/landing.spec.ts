@@ -18,11 +18,7 @@ const landingPageElements = {
 const superBlocks = [
   intro[SuperBlocks.FullStackDeveloper].title,
   intro[SuperBlocks.A2English].title,
-  intro[SuperBlocks.B1English].title,
   intro[SuperBlocks.TheOdinProject].title,
-  intro[SuperBlocks.CodingInterviewPrep].title,
-  intro[SuperBlocks.ProjectEuler].title,
-  intro[SuperBlocks.RosettaCode].title,
   intro[SuperBlocks.RespWebDesignNew].title,
   intro[SuperBlocks.JsAlgoDataStructNew].title,
   intro[SuperBlocks.FrontEndDevLibs].title,
