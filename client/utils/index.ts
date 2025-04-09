@@ -6,7 +6,6 @@ const idToPath = new Map(
     '5a553ca864b52e1d8bceea14': Certification.DataVis,
     '561acd10cb82ac38a17513bc': Certification.FrontEndDevLibs,
     '5e611829481575a52dc59c0e': Certification.QualityAssurance,
-    '5e6021435ac9d0ecd8b94b00': Certification.InfoSec,
     '561abd10cb81ac38a17513bc': Certification.JsAlgoDataStruct,
     '561add10cb82ac38a17513bc': Certification.RespWebDesign,
     '660add10cb82ac38a17513be': Certification.LegacyBackEnd,

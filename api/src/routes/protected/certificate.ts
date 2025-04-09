@@ -33,7 +33,6 @@ const {
   dataVis2018Id,
   apisMicroservicesId,
   qaV7Id,
-  infosecV7Id,
   sciCompPyV7Id,
   dataAnalysisPyV7Id,
   machineLearningPyV7Id,
@@ -138,7 +137,6 @@ function createCertTypeIds(challenges: ReturnType<typeof getChallenges>) {
     ),
     [certTypes.apisMicroservices]: getCertById(apisMicroservicesId, challenges),
     [certTypes.qaV7]: getCertById(qaV7Id, challenges),
-    [certTypes.infosecV7]: getCertById(infosecV7Id, challenges),
     [certTypes.sciCompPyV7]: getCertById(sciCompPyV7Id, challenges),
     [certTypes.dataAnalysisPyV7]: getCertById(dataAnalysisPyV7Id, challenges),
     [certTypes.machineLearningPyV7]: getCertById(
