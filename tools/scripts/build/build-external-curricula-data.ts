@@ -46,7 +46,6 @@ export const orderedSuperBlockInfo = [
   { dashedName: SuperBlocks.JsAlgoDataStructNew, public: false },
   { dashedName: SuperBlocks.FrontEndDevLibs, public: false },
   { dashedName: SuperBlocks.DataVis, public: false },
-  { dashedName: SuperBlocks.RelationalDb, public: false },
   { dashedName: SuperBlocks.BackEndDevApis, public: false },
   { dashedName: SuperBlocks.QualityAssurance, public: false },
   { dashedName: SuperBlocks.SciCompPy, public: false },

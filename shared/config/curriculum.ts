@@ -10,7 +10,6 @@ export enum SuperBlocks {
   JsAlgoDataStructNew = 'javascript-algorithms-and-data-structures-v8',
   FrontEndDevLibs = 'front-end-development-libraries',
   DataVis = 'data-visualization',
-  RelationalDb = 'relational-database',
   BackEndDevApis = 'back-end-development-and-apis',
   QualityAssurance = 'quality-assurance',
   SciCompPy = 'scientific-computing-with-python',
@@ -76,7 +75,6 @@ export const superBlockStages: StageMap = {
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.FrontEndDevLibs,
     SuperBlocks.DataVis,
-    SuperBlocks.RelationalDb,
     SuperBlocks.BackEndDevApis,
     SuperBlocks.QualityAssurance,
     SuperBlocks.SciCompPy,
@@ -149,7 +147,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.A2English
   ],
   [Languages.German]: [
-    SuperBlocks.RelationalDb,
     SuperBlocks.QualityAssurance,
     SuperBlocks.MachineLearningPy,
     SuperBlocks.CollegeAlgebraPy,
@@ -162,7 +159,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
   ],
   [Languages.Swahili]: [
     SuperBlocks.DataVis,
-    SuperBlocks.RelationalDb,
     SuperBlocks.BackEndDevApis,
     SuperBlocks.QualityAssurance,
     SuperBlocks.SciCompPy,
@@ -195,8 +191,7 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.FullStackDeveloper,
     SuperBlocks.A2English,
     SuperBlocks.PythonForEverybody,
-    SuperBlocks.DataVis,
-    SuperBlocks.RelationalDb
+    SuperBlocks.DataVis
   ]
 };
 

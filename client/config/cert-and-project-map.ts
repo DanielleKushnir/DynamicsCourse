@@ -18,7 +18,6 @@ const jsAlgo22Base = '/learn/javascript-algorithms-and-data-structures-v8';
 const feLibsBase =
   '/learn/front-end-development-libraries/front-end-development-libraries-projects';
 const dataVisBase = '/learn/data-visualization/data-visualization-projects';
-const relationalDatabaseBase = '/learn/relational-database';
 const apiMicroBase =
   '/learn/back-end-development-and-apis/back-end-development-and-apis-projects';
 const qaBase = '/learn/quality-assurance/quality-assurance-projects';
@@ -197,43 +196,6 @@ const allStandardCerts = [
         title: 'Visualize Data with a Treemap Diagram',
         link: `${dataVisBase}/visualize-data-with-a-treemap-diagram`,
         certSlug: Certification.DataVis
-      }
-    ]
-  },
-  {
-    id: '606243f50267e718b1e755f4',
-    title: 'Relational Database',
-    certSlug: Certification.RelationalDb,
-    projects: [
-      {
-        id: '5f1a4ef5d5d6b5ab580fc6ae',
-        title: 'Celestial Bodies Database',
-        link: `${relationalDatabaseBase}/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database`,
-        certSlug: Certification.RelationalDb
-      },
-      {
-        id: '5f9771307d4d22b9d2b75a94',
-        title: 'World Cup Database',
-        link: `${relationalDatabaseBase}/build-a-world-cup-database-project/build-a-world-cup-database`,
-        certSlug: Certification.RelationalDb
-      },
-      {
-        id: '5f87ac112ae598023a42df1a',
-        title: 'Salon Appointment Scheduler',
-        link: `${relationalDatabaseBase}/build-a-salon-appointment-scheduler-project/build-a-salon-appointment-scheduler`,
-        certSlug: Certification.RelationalDb
-      },
-      {
-        id: '602d9ff222201c65d2a019f2',
-        title: 'Periodic Table Database',
-        link: `${relationalDatabaseBase}/build-a-periodic-table-database-project/build-a-periodic-table-database`,
-        certSlug: Certification.RelationalDb
-      },
-      {
-        id: '602da04c22201c65d2a019f4',
-        title: 'Number Guessing Game',
-        link: `${relationalDatabaseBase}/build-a-number-guessing-game-project/build-a-number-guessing-game`,
-        certSlug: Certification.RelationalDb
       }
     ]
   },

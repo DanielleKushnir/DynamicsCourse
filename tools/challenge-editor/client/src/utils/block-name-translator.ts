@@ -9,7 +9,6 @@ export const superBlockNameMap: { [key: string]: string } = {
   '07-scientific-computing-with-python': 'scientific-computing-with-python',
   '08-data-analysis-with-python': 'data-analysis-with-python',
   '11-machine-learning-with-python': 'machine-learning-with-python',
-  '13-relational-databases': 'relational-databases',
   '14-responsive-web-design-22': '2022/responsive-web-design',
   '15-javascript-algorithms-and-data-structures-22':
     'javascript-algorithms-and-data-structures-v8',

@@ -16,7 +16,6 @@ export enum Certification {
   JsAlgoDataStructNew = 'javascript-algorithms-and-data-structures-v8',
   FrontEndDevLibs = 'front-end-development-libraries',
   DataVis = 'data-visualization',
-  RelationalDb = 'relational-database-v8',
   BackEndDevApis = 'back-end-development-and-apis',
   QualityAssurance = 'quality-assurance-v7',
   SciCompPy = 'scientific-computing-with-python-v7',
@@ -43,7 +42,6 @@ export const currentCertifications = [
   Certification.JsAlgoDataStructNew,
   Certification.FrontEndDevLibs,
   Certification.DataVis,
-  Certification.RelationalDb,
   Certification.BackEndDevApis,
   Certification.QualityAssurance,
   Certification.SciCompPy,
@@ -133,7 +131,6 @@ export const completionHours = {
   [certTypes.sciCompPyV7]: 300,
   [certTypes.dataAnalysisPyV7]: 300,
   [certTypes.machineLearningPyV7]: 300,
-  [certTypes.relationalDatabaseV8]: 300,
   [certTypes.collegeAlgebraPyV8]: 300,
   [certTypes.foundationalCSharpV8]: 300,
   [certTypes.jsAlgoDataStructV8]: 300
@@ -158,7 +155,6 @@ export const certSlugTypeMap = {
   [Certification.SciCompPy]: certTypes.sciCompPyV7,
   [Certification.DataAnalysisPy]: certTypes.dataAnalysisPyV7,
   [Certification.MachineLearningPy]: certTypes.machineLearningPyV7,
-  [Certification.RelationalDb]: certTypes.relationalDatabaseV8,
   [Certification.CollegeAlgebraPy]: certTypes.collegeAlgebraPyV8,
   [Certification.FoundationalCSharp]: certTypes.foundationalCSharpV8
 
@@ -184,7 +180,6 @@ export const superBlockCertTypeMap = {
   [SuperBlocks.SciCompPy]: certTypes.sciCompPyV7,
   [SuperBlocks.DataAnalysisPy]: certTypes.dataAnalysisPyV7,
   [SuperBlocks.MachineLearningPy]: certTypes.machineLearningPyV7,
-  [SuperBlocks.RelationalDb]: certTypes.relationalDatabaseV8,
   [SuperBlocks.CollegeAlgebraPy]: certTypes.collegeAlgebraPyV8,
   [SuperBlocks.FoundationalCSharp]: certTypes.foundationalCSharpV8,
 
@@ -232,7 +227,6 @@ export const certTypeTitleMap = {
   [certTypes.sciCompPyV7]: 'Scientific Computing with Python',
   [certTypes.dataAnalysisPyV7]: 'Data Analysis with Python',
   [certTypes.machineLearningPyV7]: 'Machine Learning with Python',
-  [certTypes.relationalDatabaseV8]: 'Relational Database',
   [certTypes.collegeAlgebraPyV8]: 'College Algebra with Python',
   [certTypes.foundationalCSharpV8]: 'Foundational C# with Microsoft',
   [certTypes.jsAlgoDataStructV8]: 'JavaScript Algorithms and Data Structures'
@@ -245,7 +239,6 @@ export const superBlockToCertMap: {
   [SuperBlocks.JsAlgoDataStructNew]: Certification.JsAlgoDataStructNew,
   [SuperBlocks.FrontEndDevLibs]: Certification.FrontEndDevLibs,
   [SuperBlocks.DataVis]: Certification.DataVis,
-  [SuperBlocks.RelationalDb]: Certification.RelationalDb,
   [SuperBlocks.BackEndDevApis]: Certification.BackEndDevApis,
   [SuperBlocks.QualityAssurance]: Certification.QualityAssurance,
   [SuperBlocks.SciCompPy]: Certification.SciCompPy,
@@ -278,7 +271,6 @@ export const linkedInCredentialIds = {
   [Certification.SciCompPy]: 'scwp',
   [Certification.DataAnalysisPy]: 'dawp',
   [Certification.MachineLearningPy]: 'mlwp',
-  [Certification.RelationalDb]: 'rd',
   [Certification.CollegeAlgebraPy]: 'cawp',
   [Certification.FoundationalCSharp]: 'fcswm',
   [Certification.FullStackDeveloper]: 'fsd',

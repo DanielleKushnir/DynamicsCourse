@@ -39,7 +39,6 @@ const superBlockFolderMap = {
   'scientific-computing-with-python': '07-scientific-computing-with-python',
   'data-analysis-with-python': '08-data-analysis-with-python',
   'machine-learning-with-python': '10-machine-learning-with-python',
-  'relational-database': '13-relational-database',
   '2022/responsive-web-design': '14-responsive-web-design-22',
   'javascript-algorithms-and-data-structures-v8':
     '15-javascript-algorithms-and-data-structures-22',

@@ -1,6 +1,5 @@
 import React from 'react';
 import { FsdChapters } from '../../../shared/config/chapters';
-import DatabaseIcon from './icons/database';
 import JavaScriptIcon from './icons/javascript';
 import ReactIcon from './icons/react';
 import ResponsiveDesign from './icons/responsive-design';
@@ -16,7 +15,6 @@ const iconMap = {
   [FsdChapters.Css]: Css,
   [FsdChapters.Javascript]: JavaScriptIcon,
   [FsdChapters.FrontendLibraries]: ReactIcon,
-  [FsdChapters.RelationalDatabases]: DatabaseIcon,
   [FsdChapters.BackendJavascript]: NodeIcon,
   [FsdChapters.Python]: Python
 };
