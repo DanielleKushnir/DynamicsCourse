@@ -16,7 +16,6 @@ export enum SuperBlocks {
   DataAnalysisPy = 'data-analysis-with-python',
   MachineLearningPy = 'machine-learning-with-python',
   TheOdinProject = 'the-odin-project',
-  CollegeAlgebraPy = 'college-algebra-with-python',
   FoundationalCSharp = 'foundational-c-sharp-with-microsoft',
   FullStackDeveloper = 'full-stack-developer',
   A2English = 'a2-english-for-developers',
@@ -80,7 +79,6 @@ export const superBlockStages: StageMap = {
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.RespWebDesign,
     SuperBlocks.JsAlgoDataStruct,
     SuperBlocks.PythonForEverybody
@@ -101,7 +99,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
   [Languages.English]: [],
   [Languages.Espanol]: [
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
@@ -149,7 +146,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
   [Languages.German]: [
     SuperBlocks.QualityAssurance,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
     SuperBlocks.JsAlgoDataStructNew,
     SuperBlocks.TheOdinProject,
@@ -164,7 +160,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
     SuperBlocks.TheOdinProject,
     SuperBlocks.RespWebDesign,
@@ -183,7 +178,6 @@ export const notAuditedSuperBlocks: NotAuditedSuperBlocks = {
     SuperBlocks.SciCompPy,
     SuperBlocks.DataAnalysisPy,
     SuperBlocks.MachineLearningPy,
-    SuperBlocks.CollegeAlgebraPy,
     SuperBlocks.FoundationalCSharp,
     SuperBlocks.TheOdinProject,
     SuperBlocks.FrontEndDevLibs,

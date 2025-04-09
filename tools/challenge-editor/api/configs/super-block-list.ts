@@ -48,10 +48,6 @@ export const superBlockList = [
     path: '16-the-odin-project'
   },
   {
-    name: 'College Algebra with Python',
-    path: '17-college-algebra-with-python'
-  },
-  {
     name: '(New) Foundational C# with Microsoft',
     path: '19-foundational-c-sharp-with-microsoft'
   },

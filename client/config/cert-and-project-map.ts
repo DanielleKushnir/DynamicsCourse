@@ -26,7 +26,6 @@ const dataAnalysisPyBase =
   '/learn/data-analysis-with-python/data-analysis-with-python-projects';
 const machineLearningPyBase =
   '/learn/machine-learning-with-python/machine-learning-with-python-projects';
-const collegeAlgebraPyBase = '/learn/college-algebra-with-python';
 const foundationalCSharpBase =
   '/learn/foundational-c-sharp-with-microsoft/foundational-c-sharp-with-microsoft-certification-exam';
 const fullStackDeveloperBase = '/learn/full-stack-developer';
@@ -384,43 +383,6 @@ const allStandardCerts = [
       }
     ]
   },
-  {
-    id: '61531b20cc9dfa2741a5b800',
-    title: 'College Algebra with Python',
-    certSlug: Certification.CollegeAlgebraPy,
-    projects: [
-      {
-        id: '63d83ff239c73468b059cd3f',
-        title: 'Build a Multi-Function Calculator',
-        link: getCollegeAlgebraPyPath('build-a-multi-function-calculator'),
-        certSlug: Certification.CollegeAlgebraPy
-      },
-      {
-        id: '63d83ffd39c73468b059cd40',
-        title: 'Build a Graphing Calculator',
-        link: getCollegeAlgebraPyPath('build-a-graphing-calculator'),
-        certSlug: Certification.CollegeAlgebraPy
-      },
-      {
-        id: '63d8401039c73468b059cd41',
-        title: 'Build Three Math Games',
-        link: getCollegeAlgebraPyPath('build-three-math-games'),
-        certSlug: Certification.CollegeAlgebraPy
-      },
-      {
-        id: '63d8401e39c73468b059cd42',
-        title: 'Build a Financial Calculator',
-        link: getCollegeAlgebraPyPath('build-a-financial-calculator'),
-        certSlug: Certification.CollegeAlgebraPy
-      },
-      {
-        id: '63d8402e39c73468b059cd43',
-        title: 'Build a Data Graph Explorer',
-        link: getCollegeAlgebraPyPath('build-a-data-graph-explorer'),
-        certSlug: Certification.CollegeAlgebraPy
-      }
-    ]
-  },
   // Legacy certifications
   {
     id: '561add10cb82ac38a17513be',
@@ -630,10 +592,6 @@ const allStandardCerts = [
 
 function getResponsiveWebDesignPath(project: string) {
   return `${responsiveWeb22Base}/${project}-project/${project}`;
-}
-
-function getCollegeAlgebraPyPath(project: string) {
-  return `${collegeAlgebraPyBase}/${project}-project/${project}`;
 }
 
 function getJavaScriptAlgoPath(project: string) {

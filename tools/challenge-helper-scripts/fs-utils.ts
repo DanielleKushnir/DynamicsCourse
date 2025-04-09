@@ -16,7 +16,6 @@ export function getSuperBlockSubPath(superBlock: SuperBlocks): string {
     [SuperBlocks.JsAlgoDataStructNew]:
       '15-javascript-algorithms-and-data-structures-22',
     [SuperBlocks.TheOdinProject]: '16-the-odin-project',
-    [SuperBlocks.CollegeAlgebraPy]: '17-college-algebra-with-python',
     [SuperBlocks.FoundationalCSharp]: '19-foundational-c-sharp-with-microsoft',
     [SuperBlocks.A2English]: '21-a2-english-for-developers',
     [SuperBlocks.PythonForEverybody]: '23-python-for-everybody',

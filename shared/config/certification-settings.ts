@@ -21,7 +21,6 @@ export enum Certification {
   SciCompPy = 'scientific-computing-with-python-v7',
   DataAnalysisPy = 'data-analysis-with-python-v7',
   MachineLearningPy = 'machine-learning-with-python-v7',
-  CollegeAlgebraPy = 'college-algebra-with-python-v8',
   FoundationalCSharp = 'foundational-c-sharp-with-microsoft',
   // Upcoming certifications
   FullStackDeveloper = 'full-stack-developer-v9',
@@ -47,7 +46,6 @@ export const currentCertifications = [
   Certification.SciCompPy,
   Certification.DataAnalysisPy,
   Certification.MachineLearningPy,
-  Certification.CollegeAlgebraPy,
   Certification.FoundationalCSharp
 ] as const;
 
@@ -90,7 +88,6 @@ export const certTypes = {
   machineLearningPyV7: 'isMachineLearningPyCertV7',
   fullStack: 'isFullStackCert',
   relationalDatabaseV8: 'isRelationalDatabaseCertV8',
-  collegeAlgebraPyV8: 'isCollegeAlgebraPyCertV8',
   foundationalCSharpV8: 'isFoundationalCSharpCertV8',
   jsAlgoDataStructV8: 'isJsAlgoDataStructCertV8'
 } as const;
@@ -111,7 +108,6 @@ export const certIds = {
   dataAnalysisPyV7Id: '5e46fc95ac417301a38fb934',
   machineLearningPyV7Id: '5e46fc95ac417301a38fb935',
   relationalDatabaseV8Id: '606243f50267e718b1e755f4',
-  collegeAlgebraPyV8Id: '61531b20cc9dfa2741a5b800',
   foundationalCSharpV8Id: '647f7da207d29547b3bee1ba',
   jsAlgoDataStructV8Id: '658180220947283cdc0689ce'
 };
@@ -131,7 +127,6 @@ export const completionHours = {
   [certTypes.sciCompPyV7]: 300,
   [certTypes.dataAnalysisPyV7]: 300,
   [certTypes.machineLearningPyV7]: 300,
-  [certTypes.collegeAlgebraPyV8]: 300,
   [certTypes.foundationalCSharpV8]: 300,
   [certTypes.jsAlgoDataStructV8]: 300
 };
@@ -155,7 +150,6 @@ export const certSlugTypeMap = {
   [Certification.SciCompPy]: certTypes.sciCompPyV7,
   [Certification.DataAnalysisPy]: certTypes.dataAnalysisPyV7,
   [Certification.MachineLearningPy]: certTypes.machineLearningPyV7,
-  [Certification.CollegeAlgebraPy]: certTypes.collegeAlgebraPyV8,
   [Certification.FoundationalCSharp]: certTypes.foundationalCSharpV8
 
   // upcoming
@@ -180,7 +174,6 @@ export const superBlockCertTypeMap = {
   [SuperBlocks.SciCompPy]: certTypes.sciCompPyV7,
   [SuperBlocks.DataAnalysisPy]: certTypes.dataAnalysisPyV7,
   [SuperBlocks.MachineLearningPy]: certTypes.machineLearningPyV7,
-  [SuperBlocks.CollegeAlgebraPy]: certTypes.collegeAlgebraPyV8,
   [SuperBlocks.FoundationalCSharp]: certTypes.foundationalCSharpV8,
 
   // post-modern
@@ -206,7 +199,6 @@ export const certTypeIdMap = {
   [certTypes.dataAnalysisPyV7]: certIds.dataAnalysisPyV7Id,
   [certTypes.machineLearningPyV7]: certIds.machineLearningPyV7Id,
   [certTypes.relationalDatabaseV8]: certIds.relationalDatabaseV8Id,
-  [certTypes.collegeAlgebraPyV8]: certIds.collegeAlgebraPyV8Id,
   [certTypes.foundationalCSharpV8]: certIds.foundationalCSharpV8Id,
   [certTypes.jsAlgoDataStructV8]: certIds.jsAlgoDataStructV8Id
 };
@@ -227,7 +219,6 @@ export const certTypeTitleMap = {
   [certTypes.sciCompPyV7]: 'Scientific Computing with Python',
   [certTypes.dataAnalysisPyV7]: 'Data Analysis with Python',
   [certTypes.machineLearningPyV7]: 'Machine Learning with Python',
-  [certTypes.collegeAlgebraPyV8]: 'College Algebra with Python',
   [certTypes.foundationalCSharpV8]: 'Foundational C# with Microsoft',
   [certTypes.jsAlgoDataStructV8]: 'JavaScript Algorithms and Data Structures'
 };
@@ -244,7 +235,6 @@ export const superBlockToCertMap: {
   [SuperBlocks.SciCompPy]: Certification.SciCompPy,
   [SuperBlocks.DataAnalysisPy]: Certification.DataAnalysisPy,
   [SuperBlocks.MachineLearningPy]: Certification.MachineLearningPy,
-  [SuperBlocks.CollegeAlgebraPy]: Certification.CollegeAlgebraPy,
   [SuperBlocks.FoundationalCSharp]: Certification.FoundationalCSharp,
   [SuperBlocks.RespWebDesignNew]: Certification.RespWebDesign,
   [SuperBlocks.JsAlgoDataStruct]: Certification.JsAlgoDataStruct,
@@ -271,7 +261,6 @@ export const linkedInCredentialIds = {
   [Certification.SciCompPy]: 'scwp',
   [Certification.DataAnalysisPy]: 'dawp',
   [Certification.MachineLearningPy]: 'mlwp',
-  [Certification.CollegeAlgebraPy]: 'cawp',
   [Certification.FoundationalCSharp]: 'fcswm',
   [Certification.FullStackDeveloper]: 'fsd',
   [Certification.JsAlgoDataStructNew]: 'jaads',
